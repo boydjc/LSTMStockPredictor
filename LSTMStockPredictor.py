@@ -4,7 +4,7 @@ from sklearn.preprocessing import MinMaxScaler
 from keras import models
 from keras import layers
 from keras.models import Sequential
-from keras.layers import Dense, GRU, Conv2D, Dropout, Flatten, Reshape, LSTM
+from keras.layers import Dense, Dropout, Flatten, Reshape, LSTM
 from keras.utils import to_categorical
 import os
 from datetime import datetime, timedelta
